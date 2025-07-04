@@ -4,8 +4,6 @@ from torch import nn
 from torch import optim
 from enum import Enum
 
-from stable_audio_tools.models.utils import load_ckpt_state_dict
-
 from .modules import LoRALinear, LoRAConv1d
 from .util import *
 from .attributes import *
